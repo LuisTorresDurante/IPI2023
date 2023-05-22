@@ -1,0 +1,69 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+.cont-btn {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: .2rem solid #9fce40;
+    border-radius: 15px;
+    
+    margin: 0px auto;   
+}
+.botones{
+    
+    margin: 1rem;
+    background-color: pink;
+    border-style:hidden;
+    border-radius: .3rem;
+    text-size-adjust: 3;
+    font-size: large;
+}
+.botones:hover{
+    background-color: aqua;
+}
+
+#Agrandar:hover{
+    transform:scale(2) translate(-3rem, 3rem);
+    border: .5rem solid black;
+    border-radius: .3rem;
+    background-color: blue;    
+    color: wheat;
+}
+
+#Achicar:hover{
+    transform:scale(.5) rotate(180deg);
+    border: .1rem solid lightblue;
+    border-radius: .2rem;
+    background-color: white;    
+}
+
+#Rotacion:hover{
+    transform: scale(2) rotate(180deg) rotate3d(0, 1, 0, 30deg) ;
+    border: .5rem solid black;
+    border-radius: .3rem;
+    background-color: red;    
+}
+@keyframes marometa {
+    0% {
+      transform: translateY(0) rotate(0);
+    }
+    50% {
+      transform: translateY(100px) rotate(360deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+
+  #Animar:hover{
+    border: .5rem solid black;
+    border-radius: .3rem;
+    background-color: greenyellow   ;   
+    animation: marometa 1s ease-in-out infinite;
+}   

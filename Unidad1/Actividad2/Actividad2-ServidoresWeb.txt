@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+
+        margin: 2rem;
+        justify-content: baseline;
+        display: block;
+        background-color:aliceblue;
+        font-size: large;
+
+    }
+</style>
+<body>
+    
+    <h1>Servidores Web y de Aplicación</h1>
+
+    <h2>¿Qué es un servidor?</h2>
+    <p>
+        Para un servidor tenemos 2 definiciones, una de software y una de hardware. <br>
+
+        <ul>
+
+            <li>Servidor (Hardware): <br>
+                Es una computadora que almacena el software de servidor web, y los archivos que componen un sitio web (por ejemplo, documentos HTML, imágenes, hojas de estilos CSS y archivos JavaScript). Un servidor web -hardware- se conecta a internet y mantiene el intercambio de datos con otros dispositivos conectados a la web.<br><br>
+                </li>
+
+                <li>
+                    Servidor (Software): <br>
+        
+                    Un servidor web tiene muchas partes que controlan cómo los usuarios de la web obtienen acceso a los archivos alojados en el servidor; es decir, mínimamente, un servidor HTTP. Un servidor HTTP es una pieza de software capaz de comprender URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para obtener las páginas web). Un servidor HTTP puede ser accedido a través de los nombres de dominio de los sitios web que aloja, y entrega el contenido de esos sitios web alojados al dispositivo del usuario final.<br>
+                </li>
+        </ul>
+        
+        
+       
+        
+    </p>
+
+    <h2>Servidores web:</h2>
+
+    <p>
+        Los servidores web son software y hardware que utilizan los protocolos (como HTTP o SMTP) para responder a las peticiones hechas en la web. <br> 
+        
+        Su función es mostrar, almacenar y procesar el contenido de una página web a los usuarios. <br><br>
+        
+        Estos servidores funcionan mediante la obtencion de un url por parte de un usuario a travez de un navegador, que luego es traducido para obtener la direccion IP del servidor web en el cual esta localizada la pagina web. El navegador solicita un archivo al servidor y este envia la pagina solicitada por el navegador mediante HTTP. <br><br>
+
+        Servidores web populares: 
+        
+        <ul>
+            <li>Apache HTTP</li>
+            <li>Nginx</li>
+            <li>Microsoft Internet Information Services (IIS)</li>
+        </ul>
+
+    </p>
+    
+
+    <h2>Servidores de aplicación: </h2>
+    <p>
+        Los servidores de aplicaciones son programas de servidor en una red distribuida que proporciona el entorno de ejecución para un programa de aplicación. Más específicamente, el servidor de aplicaciones es el componente de tiempo de ejecución principal en todas las configuraciones y donde una aplicación se ejecuta realmente.
+        
+        <ul>
+            <li>WebSphere Application Server.</li>
+            <li>Domino.</li>
+            <li>Integrated Web Application Server</li>
+
+        </ul>
+    </p>
+
+
+        <h3>Trabajo realizado por los alumnos:</h3>
+        <ul>
+            <li>Torres Durante Luis Ramon</li>
+            <li>Suaste Martínez Luis</li>
+            <li>Oviedo Guia Kevy Leonardo</li>
+        </ul>
+
+
+        <h2>Referencias:</h2>
+        <ol>
+            <li>
+                <a href="https://www.ibm.com/docs/es/i/7.2?topic=serving-application-servers">Página 1.</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/es/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server">Página 2.</a>
+            </li>
+            <li>
+                <a href="https://www.ionos.mx/digitalguide/servidores/know-how/que-es-un-servidor-un-concepto-dos-definiciones/">Página 3.</a>
+            </li>
+        
+        </ol>
+        
+    </p>
+
+
+</body>
+</html>

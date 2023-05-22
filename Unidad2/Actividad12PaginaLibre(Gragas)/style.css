@@ -1,0 +1,36 @@
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+#Titulo{
+    background-color: black;
+    border-radius: .5rem;
+    border-color: white;
+    border-width: .1rem;
+}
+.lista{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: .2rem;
+    width: 80%;
+}
+th,td{
+    border: 1px solid;
+    text-align: center;
+    padding: .5rem;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #984621;}
+td:hover {background-color: #986641;}
+
+.listImg{
+    height: 300px;
+}
+body{
+    /* background-color: black; */
+    background-image: url(https://cdn.discordapp.com/attachments/916518809253314594/1095100398244728843/league-of-legends-desktop-wallpaper-riot-games-gragas-status-effect-league-of-legends-2c0b480f378e73e595412a0a96c93e27_1.png);
+    
+}

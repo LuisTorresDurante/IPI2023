@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+body{
+    background-image: url("https://cdn.britannica.com/12/154812-050-F5E63A51/Don-Quixote-Sancho-Panza-illustration-Miguel-de.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-color: #f7e5cc;
+    background-position: center;
+    
+}
+
+.header-text {
+    text-align: center;
+    display: inline-block;
+}
+header h1 {
+    color: yellow;
+}
+header p {
+    color: blanchedalmond;
+}
+
+main {
+    border-style: groove;
+    border-color: yellow;
+    border-width: 1rem;
+    width: 50vw;
+    height: auto;
+    margin: 5rem auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#span-e{
+    color: yellow;
+    font-family: 'Freehand', cursive;
+    font-size: xx-large;
+}

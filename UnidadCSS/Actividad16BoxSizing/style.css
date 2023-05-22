@@ -1,0 +1,41 @@
+.box{
+    width: 350px;
+    height: 200px;
+    border-width: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: yellow;
+    background-color: blanchedalmond;
+    text-align: center;
+    color:blue;
+    margin-left: 3rem;
+    
+    
+}
+main{
+
+    background-color:darkturquoise;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+
+}
+
+#content-box{
+    
+    box-sizing: content-box;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+#border-box{
+    box-sizing: border-box;
+    line-height: .7;
+}
+
+
+
+body{
+    background-color: antiquewhite;
+}

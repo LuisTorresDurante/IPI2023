@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles2.css">
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        main{
+            margin-top: 2%;
+            margin-left: 2%;
+        }
+        main *{
+            padding: .2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+          </svg>  Inicio</a>
+        <div class="dropdown">
+          <button class="dropbtn">Unidad 1 Conceptos generales
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../../Unidad1/Actividad1/index.html">Actividad 1</a>
+            <a href="../../Unidad1/Actividad2/index.html">Actividad 2</a>
+            <a href="../../Unidad1/Actividad3/index.html">Actividad 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Unidad 2 HTML
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../../Unidad2/Actividad2ContenedoresDiv/index.html">Actividad 2 </a>
+              <a href="../../Unidad2/Actividad3CaracteristicasDeImagenes/index.html">Actividad 3</a>
+              <a href="../../Unidad2/Actividad4ManipulacionDeTexto/index.html">Actividad 4</a>
+              <a href="../../Unidad2/Actividad6ManejoDeTexto(Poema)/index.html">Actividad 6</a>
+              <a href="../../Unidad2/Actividad7EnlacesDentroDelDocumento/index.html">Actividad 7</a>
+              <a href="../../Unidad2/Actividad8EnlacesExternos/index.html">Actividad 8</a>
+              <a href="../../Unidad2/Actividad9Imagenes/index.html">Actividad 9</a>
+              <a href="../../Unidad2/Actividad10ListasYTablas/index.html">Actividad 10</a>
+              <a href="../../Unidad2/Actividad11Formularios/index.html">Actividad 11</a>
+              <a href="../../Unidad2/Actividad12PaginaLibre(Gragas)/index.html">Actividad 12</a>
+            </div>   
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Unidad 3 CSS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../../UnidadCSS/Actividad13CascadaYHerencia/index.html">Actividad 13</a>
+              <a href="../../UnidadCSS/Actividad14-15/index.html">Actividad 14-15</a>
+              <a href="../../UnidadCSS/Actividad16BoxSizing/index.html">Actividad 16</a>
+              <a href="../../UnidadCSS/Actividad17/index.html">Actividad 17</a>
+              <a href="../../UnidadCSS/Actividad18/index.html">Actividad 18</a>
+              <a href="../../UnidadCSS/Actividad19Transformaciones/index.html">Actividad 19</a>
+              <a href="../../UnidadCSS/Actividad20Transformaciones2/index.html">Actividad 20</a>
+              <a href="../../UnidadCSS/Actividad21InlineYBlock/index.html">Actividad 21</a>
+              <a href="../../UnidadCSS/Actividad22Grid/index.html">Actividad 22</a>
+            </div>
+          </div>
+    </div>
+    
+    <main>
+        
+    <h1>Formulario: Intereses de alumnos</h1>
+
+    <form>
+        <h2>Datos Personales</h2>
+        <section>
+            <label for="Nombre">Nombre </label><input type="text" name="Nombre" placeholder="Juanito Alcachofa">
+            <label for="email">email </label><input type="text" name="email" placeholder="JuanitoAlchachofa123@uabc.edu.mx">
+            <label for="password">Contraseña </label><input type="password" name="password" placeholder="***********">
+        </section>
+    </form>
+
+    <form>
+        <h2>Intereses</h2>
+
+        <section ><label for="">¿Cuáles son tus intereses personales?</label> <textarea style="vertical-align: middle;"name="interesesPersonales" id="" cols="30" rows="5"></textarea></section>
+       
+        <section> 
+            <p>¿Realizas ejercicio en casa?</p>
+            <label for="radiobtn1">Si </label><input type="radio" name="radiobtn1" id="">
+            <label for="radiobtn2">No </label><input type="radio" name="radiobtn1" id="">
+        </section>
+
+        <section>
+            <p>¿Cómo prefieres enterarte sobre tus temas favoritos?</p>
+            <label for=""><input type="checkbox" name="" id="">Libros</label>
+            <label for=""><input type="checkbox" name="" id="">Recursos en linea</label>
+            <label for=""><input type="checkbox" name="" id="">Apps de telefono</label>
+            <label for=""><input type="checkbox" name="" id="">Revistas</label>
+        </section>
+
+        <section>
+            <p>¿Qué tipo de peliculas te gustan?</p>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">Comedia</option>
+                <option value="">Drama</option>
+                <option value="">Accion</option>
+                <option value="">Romance</option>
+            </select>
+        </section>
+
+        <section>
+            <p>¿Qué tan feliz te sientes en este momento?</p>
+            <input type="range" name="" id="">
+        </section>
+        <section>
+            <button>Reset</button>
+            <button>Enviar Formulario</button>
+        </section>
+    </form>
+
+    <footer>
+        <p>Luis Ramon Torres Durante © 2023</p>
+    </footer>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+/*https://colorhunt.co/palette/3936464f45576d5d6ef4eee0*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #F4EEE0;
+}
+main{
+  background-color: #4F4557;
+}
+header{
+  padding-top: 1rem;
+  background-color: #393646;
+  height: 5rem;
+}
+header h1{
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  color: #F4EEE0;
+}
+header img{
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+
+}
+header img#img-header {
+  height: 3rem !important;
+}
+
+
+main div{
+  
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-img {
+  width: 60%;
+}
+p, h4{
+  size: small;
+}
+.icon-img {
+  max-width: 10%;
+  vertical-align: middle;
+}
+
+.grid-container {
+  background-color: #4F4557;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+.grid-item {
+  background-color: #6D5D6E;
+  justify-content: center; 
+  font-size: 1em;
+  text-align: center;
+  height: 90%;
+  padding: 0;
+}
